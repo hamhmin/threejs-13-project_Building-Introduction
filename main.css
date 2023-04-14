@@ -75,3 +75,26 @@ body {
 	color: #fff;
 	border: 1px solid #fff;
 }
+.test_text_box{
+	position: fixed;
+	width: 24px;
+	height: 24px;
+	z-index: 30;
+	border-radius: 9999px;
+	top: 50%;
+	left: 50%;
+	border: 1px solid #333;
+	display: none;
+	/* opacity: 0; */
+	font-size: 15px;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+.test_text_box:hover{
+	transform: scale(1.2);
+	background: #fff;
+	color: #333;
+}
+.test_text_box:active{
+	background: purple;
+}
